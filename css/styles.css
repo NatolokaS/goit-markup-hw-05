@@ -116,6 +116,7 @@ img {
 }
 
 .logo {
+  padding: 24px 0;
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
@@ -124,6 +125,7 @@ img {
   text-transform: uppercase;
   color: var(--color-primary);
   display: block;
+  text-decoration: none;
   margin-right: 76px;
   align-items: center;
 }
@@ -171,10 +173,11 @@ img {
   color: var(--color-pressed);
 }
 
-.active-page {
+.menu-link {
+  position: relative;
   color: var(--color-pressed);
+  padding: 24px 0 24px 0;
 }
-
 .active-page::after {
   position: absolute;
   content: '';
@@ -182,14 +185,12 @@ img {
   height: 4px;
   left: 0px;
   bottom: -1px;
-  background: var(--color-pressed);
+  background-color: var(--color-pressed);
   border-radius: 2px;
 }
 
-.menu-link {
-  position: relative;
+.active-page {
   color: var(--color-pressed);
-  padding: 24px 0 24px 0;
 }
 
 /* ===================Header================== */
