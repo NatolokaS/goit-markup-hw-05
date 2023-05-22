@@ -175,7 +175,7 @@ img {
 
 .menu-link {
   position: relative;
-  /* color: var(--color-pressed); */
+  color: var(--color-dark);
   padding: 24px 0 24px 0;
 }
 .active-page::after {
